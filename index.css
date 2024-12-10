@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    gap: 1000px;
+}
+.container ul{
+    list-style: none;
+    margin: 0;
+    padding: 6px;
+    padding-left: 20px;
+    flex-direction: column;
+}
+
+.container ul  li{
+    list-style: none;
+    display: inline-block;
+    gap: 4px;
+    font-size: 25px;
+}
+.container ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.container ul li a:hover{
+    color: #f00;
+}
+.content-card{
+    padding-top: 50px;
+    display: flex;
+}
+.content-details{
+    font-size: 30px;
+    padding-top: 80px;
+    padding-left: 150px;
+}
+.content-button{
+    text-align: center;
+}
+
+.image img{
+    width: 500px;
+    height: 300px;
+    padding-left: 200px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    gap: 2px;
+}
+.menu-card{
+    box-sizing: border-box;
+    width: 400px;
+    background-color: rgb(84, 135, 135);
+    text-align: center;
+}
+.menu-card img{
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+}
+.menu-card h4{
+    text-align: center;
+    font-size: large;
+}
+.menu-card button{
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.footer{
+    padding-top: 100px;
+}
+.contact-section {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    text-align: center;
+ }
+ 
+ .contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+ }
+ 
+ .contact-section h1 span {
+    color: yellowgreen;
+ }
+ 
+ .contact-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+ }
+ 
+ .contact-info {
+    width: 200px;
+    text-align: center;
+ }
+ 
+ .contact-info i {
+    font-size: 30px;
+    color: yellowgreen;
+    margin-bottom: 10px;
+ }
+ 
+ .contact-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+ }
+ 
+ .contact-info p {
+    font-size: 14px;
+    color: #555;
+ }
+ 
+ /* Contact Form Styles */
+ .contact-form-container {
+    margin-top: 30px;
+ }
+ 
+ .contact-form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .contact-form-container input,
+ .contact-form-container textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+ }
+ 
+ .contact-form-container button {
+    background-color: yellowgreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ 
+ .contact-form-container button:hover {
+    background-color: yellowgreen;
+ }
+ 
